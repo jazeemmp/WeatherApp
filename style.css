@@ -196,6 +196,8 @@ footer a{
 @media only screen and (max-width:600px){
     .card{
         margin-top: -80px;
+    }.col{
+    margin: 0px 10px 20px 10px;
     }
     .city{
         font-size: 1.1rem;
