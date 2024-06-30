@@ -51,7 +51,6 @@ input[type="text"] {
     border: 2px solid rgb(255, 255, 255, 0.2);
     height: 100px;
     overflow: hidden;
-    z-index: 999;
     transition: height .8s ease;
 }
 .search-section{
@@ -94,7 +93,7 @@ input[type="text"] {
     position: absolute;
     right: 10px;
     overflow: hidden;
-    z-index: 9999;
+    z-index: 1;
 }
 .col{
     margin: 0px 15px 20px 15px;
