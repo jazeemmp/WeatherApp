@@ -24,11 +24,11 @@ header{
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 10px;
+    top: 2px;
     left: 20px;
 }
 header img{
-    width: 100px;
+    width: 90px;
 }
 input::placeholder{
     color: #fff;
@@ -42,7 +42,7 @@ input[type="text"] {
 }
 .card{
     width: 90%;
-    max-width: 470px; 
+    max-width: 470px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
     padding: 10px 10px; 
@@ -195,7 +195,7 @@ footer a{
 }
 @media only screen and (max-width:600px){
     .card{
-        margin-top: 80px;
+        margin-top: -80px;
     }
     .city{
         font-size: 1.1rem;
