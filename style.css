@@ -19,6 +19,17 @@ body{
     justify-content: center;
     position: relative;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+header img{
+    width: 100px;
+}
 input::placeholder{
     color: #fff;
     text-transform: capitalize;
@@ -32,7 +43,6 @@ input[type="text"] {
 .card{
     width: 90%;
     max-width: 470px; 
-    margin-top: -50px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
     padding: 10px 10px; 
@@ -184,6 +194,9 @@ footer a{
     font-weight: 600;
 }
 @media only screen and (max-width:600px){
+    .card{
+        margin-top: 80px;
+    }
     .city{
         font-size: 1.1rem;
     }
@@ -201,5 +214,8 @@ footer a{
         font-size: 1.2rem;
         width: 59px;
         height:59px ;
+    }footer{
+        bottom: 60px;
     }
+
 }
