@@ -74,7 +74,6 @@ input[type="text"] {
     margin: 10px 5px 10px 10px;
     position: relative;
     overflow: hidden;
-    z-index: 9999;
 }
 #location{
     position: absolute;
@@ -95,6 +94,7 @@ input[type="text"] {
     position: absolute;
     right: 10px;
     overflow: hidden;
+    z-index: 9999;
 }
 .col{
     margin: 0px 15px 20px 15px;
