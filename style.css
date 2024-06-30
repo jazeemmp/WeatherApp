@@ -174,7 +174,7 @@ input[type="text"] {
 footer{
     font-size: .8em;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
 }
 footer a{
     text-decoration: none;
