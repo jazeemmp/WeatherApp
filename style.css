@@ -15,7 +15,6 @@ body{
     width: auto;
     height: 100vh;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -29,12 +28,10 @@ input[type="text"] {
     color: rgb(190, 189, 189,);
 }
 .card{
-    /* position: relative; */
-    width: 90%;
+    width: 100%;
     max-width: 470px; 
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
-    /* margin: 100px auto 0; */
     padding: 10px 10px; 
     border-radius: 10px;
     text-align: center;
@@ -57,7 +54,6 @@ input[type="text"] {
     outline: 0;
     border: 2px solid rgba(255, 255, 255, 0.2);;
     border-radius: 10px;
-    /* background-color: hsla(0, 0%, 58%, 0.244); */
     padding: 10px 10px 10px 40px;
     height: 60px;
     flex: 1;
@@ -96,7 +92,6 @@ input[type="text"] {
 .temparature span{
     font-size: 1.8rem;
     position: absolute;
-    /* line-height: 1; */
     font-weight: 700;
     top: 11px;
 
