@@ -9,7 +9,7 @@ const apiKey = "3f25de0eabb64a465c74e6d0b625d172"
 
 search.addEventListener("submit", async event =>{
     event.preventDefault()
-    const city = cityInput.value
+    const city = cityInput.value.trim()
      
     if(city){
         try{
