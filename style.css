@@ -22,13 +22,15 @@ body{
 input::placeholder{
     color: #fff;
     text-transform: capitalize;
+    font-weight: 500;
 }
+
 input[type="text"] {
     text-transform: uppercase;
     color: rgb(190, 189, 189,);
 }
 .card{
-    width: 100%;
+    width: 90%;
     max-width: 470px; 
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(30px);
@@ -46,7 +48,7 @@ input[type="text"] {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    /* position: relative; */
 }
 .city{
     font-size: 1.5rem;
@@ -54,27 +56,32 @@ input[type="text"] {
     outline: 0;
     border: 2px solid rgba(255, 255, 255, 0.2);;
     border-radius: 10px;
-    padding: 10px 10px 10px 40px;
+    padding: 10px;
+    padding-left: 40px;
     height: 60px;
     flex: 1;
     margin: 10px 5px 10px 10px;
+    position: relative;
+    overflow: hidden;
 }
 #location{
     position: absolute;
     font-size: 1.4rem;
-    left: 25px;
+    left: 35px;
 }
 .search{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 60px;
     margin-right: 10px;
     height: 60px;
     color: rgb(36, 36, 36);
     background: transparent;
-    border: 2px solid rgb(255, 255, 255, 0.2) ;
+    border: 0;
     outline: 0;
-    border-radius: 10px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
     cursor: pointer;
+    position: absolute;
+    right: 10px;
 }
 .col{
     margin: 0px 15px 20px 15px;
@@ -177,7 +184,7 @@ footer a{
 }
 @media only screen and (max-width:600px){
     .city{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .humidity,.windspeed{
         font-size: 1rem;
